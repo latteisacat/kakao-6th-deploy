@@ -52,10 +52,10 @@ public class CartRestController {
     }
 
     // 에러 로그 확인을 위한 url
-    @GetMapping("/carts/error")
-    public ResponseEntity<?> error(){
-        throw new AccessControlException("just for logging");
-    }
+    // @GetMapping("/carts/error")
+    // public ResponseEntity<?> error(){
+    //     throw new AccessControlException("just for logging");
+    // }
 
     /**
      * [
